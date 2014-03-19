@@ -16,9 +16,9 @@ public class AEPMGetMaster {
 	
 	
 	public static String GetPartInfo(String[] args) {
+		//test comment//
 		
-		
-		String myString = soapXml;
+		String myString = soapXml;   
 		
 		myString = myString.replace("#", args[0]);
 		
